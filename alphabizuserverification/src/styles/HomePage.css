@@ -1,0 +1,153 @@
+/* General page styling */
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centered card styling */
+.card {
+  display: flex;
+  flex-direction: column; /* Default for smaller screens */
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 900px; /* Increased width to accommodate image and text side-by-side */
+  height: 525px;
+  padding: 0%;
+  margin: 0%;
+ 
+}
+
+/* Content inside the card */
+.card-content {
+  display: flex;
+ 
+  align-items: center; /* Align items vertically */
+  justify-content: flex-start; /* Align content to the left */
+  gap: 20px; /* Space between text and image */
+}
+
+.text-section {
+  flex: 1; /* Allows the text section to fill available space */
+  text-align: left; /* Align text to the left */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 10px;
+  margin-left:10px;
+}
+
+
+/* Header styling */
+.header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  width:320px;
+  text-align: center;
+}
+
+.header p {
+  font-size: 16px;
+  color: #ffc801;
+  width:320px;
+  text-align: center;
+ 
+}
+
+
+/* Buttons section */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:0%;
+  justify-content: space-between;
+  margin-top: 30%; /* Adjusted spacing above the buttons */
+}
+
+.signup-btn{
+  background-color: #ffc801;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5px;
+  cursor: pointer;
+  padding: 10px;
+  width: 250px; /* Limits button size */
+}
+.login-btn {
+  background-color: #ffc801;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+ 
+  width: 120px; /* Limits button size */
+  padding: 10px;
+  line-height: 1.5px;
+}
+.signup-btn:hover,
+.login-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Or separator */
+.or {
+ 
+  display: flex; /* Use flexbox for aligning the text and lines */
+  align-items: center;
+  font-size: 10px; /* Adjust font size */
+  color: #000000;
+  text-align: center;
+  gap: 0 10px; /* Spacing between the "Or" and the lines */
+  width: 250px; /* Take full width to allow lines to stretch */
+}
+
+
+.or::before,
+.or::after {
+  content: "";
+  flex: 1; /* Allows the lines to stretch */
+ 
+  background: #acabab; /* Faint gray color for the lines */
+}
+
+/* Image section */
+.image-section {
+  width: 60%; /* Image takes up 60% of the card */
+  height: 525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-image {
+  width: 100%;
+  height: 525px; /* Ensures the image scales properly */
+  object-fit:cover;
+  border-radius: 10px; /* Optional: add slight rounding for a polished look */
+  
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #585858;
+}

@@ -1,0 +1,148 @@
+# **BizPoints App User Guide**
+
+Welcome to the **BizPoints App**, a loyalty platform where users can register, authenticate, and manage their accounts securely. This guide is designed to help both **Admins** and **Clients** navigate the app effectively.
+
+---
+
+## **Table of Contents**
+1. [Getting Started](#getting-started)
+2. [User Roles](#user-roles)
+3. [Key Features](#key-features)
+4. [Step-by-Step Instructions](#step-by-step-instructions)
+   - [Client Registration](#client-registration)
+   - [Admin Login](#admin-login)
+   - [User Login](#user-login)
+   - [OTP Verification](#otp-verification)
+   - [Logging Out](#logging-out)
+5. [Security and Privacy](#security-and-privacy)
+6. [FAQs](#faqs)
+7. [Troubleshooting](#troubleshooting)
+
+---
+
+## **1. Getting Started**
+
+### **What is BizPoints?**
+BizPoints is a loyalty platform where users can:
+- Register for loyalty programs.
+- Earn and redeem points.
+- Access their accounts securely using advanced authentication methods.
+
+---
+
+## **2. User Roles**
+
+### **Admin**
+Admins manage the platform, including user accounts and system configurations.
+
+### **Clients**
+Clients can register for the loyalty program, log in, and access their loyalty points and rewards.
+
+---
+
+## **3. Key Features**
+
+### **For Clients**:
+- **Secure Registration**: Easily create an account.
+- **Login with OTP**: Enhanced security for accessing your account.
+- **Access Rewards**: View and redeem loyalty points.
+
+### **For Admins**:
+- **Admin Login**: Manage user accounts and oversee system operations.
+- **RBAC (Role-Based Access Control)**: Access features specific to your admin role.
+
+---
+
+## **4. Step-by-Step Instructions**
+
+### **Client Registration**
+1. Open the BizPoints app.
+2. Go to the **Register** page.
+3. Enter the required details:
+   - Full Name
+   - Email Address
+   - Password
+4. Submit the form.
+5. Check your email for a One-Time Password (OTP) and proceed with OTP verification.
+
+---
+
+### **Admin Login**
+1. Open the BizPoints app.
+2. Navigate to the **Admin Login** section.
+3. Enter your admin credentials:
+   - Email
+   - Password
+4. Click **Login**. You will be redirected to the Admin Dashboard.
+
+---
+
+### **User Login**
+1. Go to the **Login** page.
+2. Enter your credentials:
+   - Email
+   - Password
+3. Submit the form.
+4. If OTP verification is enabled, check your email for the OTP and enter it to complete the login process.
+
+---
+
+### **OTP Verification**
+1. After registering or logging in, you will receive a One-Time Password (OTP) via email.
+2. Enter the OTP on the verification page.
+3. Submit the OTP to complete the process.
+
+---
+
+### **Logging Out**
+1. To log out, navigate to the profile or settings menu.
+2. Click **Logout**. This will securely terminate your session.
+
+---
+
+## **5. Security and Privacy**
+
+- **Encrypted Passwords**: Your passwords are securely encrypted and stored.
+- **Secure Sessions**: Uses JSON Web Tokens (JWT) for authentication.
+- **Role-Based Access Control**: Ensures only authorized users can access specific features.
+- **Data Privacy**: All personal information is handled with strict confidentiality.
+
+---
+
+## **6. FAQs**
+
+### **How do I reset my password?**
+1. Go to the **Forgot Password** page.
+2. Enter your registered email address.
+3. Follow the instructions sent to your email to reset your password.
+
+### **What if I don’t receive the OTP?**
+- Check your spam or junk folder.
+- Ensure your email address was entered correctly.
+- If the issue persists, contact support.
+
+### **Can I register multiple accounts?**
+- Each user must register with a unique email address.
+
+### **How do I check my loyalty points?**
+- Log in to your account and navigate to the **Rewards** section.
+
+---
+
+## **7. Troubleshooting**
+
+### **Login Issues**
+- Ensure your email and password are correct.
+- If you’ve forgotten your password, use the **Forgot Password** option.
+
+### **OTP Not Working**
+- Ensure the OTP is entered within the valid time frame.
+- Request a new OTP if the previous one expired.
+
+### **Unable to Register**
+- Check your internet connection.
+- Ensure all required fields are filled correctly.
+
+---
+
+Thank you for using **BizPoints**! If you need further assistance, contact our support team at **support@bizpoints.com**. Enjoy managing your loyalty program with ease!

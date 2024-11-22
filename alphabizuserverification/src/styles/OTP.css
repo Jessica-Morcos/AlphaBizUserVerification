@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+  }
+  /* login Page Styling */
+.otp-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .otp-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure the container spans full width */
+    max-width: 350px; /* Optional: Limit max width */
+    padding: 0;
+    margin-bottom: 20%;
+    box-sizing: border-box; /* Include padding in width */
+    gap:10px;
+    z-index: 2; /* Keeps the form above the background */
+  }
+
+/* Background Image Styling */
+.background-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%; /* Adjust to match the image */
+    background: url("../assets/backgroundImage.svg")  center bottom;
+    background-size: cover;
+    z-index: 1; /* Places the background behind the form */
+  }
+  
+h2 {
+  font-size: 25px;
+ 
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.otp-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form spans full width of parent */
+    max-width: 100%; /* Prevent unexpected overflow */
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+   
+   
+  }

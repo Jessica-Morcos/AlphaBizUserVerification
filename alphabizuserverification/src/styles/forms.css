@@ -1,0 +1,40 @@
+
+.form-label {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .form-checkbox {
+    font-size: 14px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+  }
+  .form-button {
+    width: 100%;
+    background-color: #ffc801;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    line-height:1.5px;
+  }

@@ -1,0 +1,163 @@
+
+/* General page styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+/* Signup Page Styling */
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensure the container spans full width */
+  max-width: 400px; /* Optional: Limit max width */
+  padding: 0;
+  margin-bottom: 5%;
+  box-sizing: border-box; /* Include padding in width */
+
+  z-index: 2; /* Keeps the form above the background */
+}
+
+/* Background Image Styling */
+.background-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%; /* Adjust to match the image */
+  background: url("../assets/backgroundImage.svg")  center bottom;
+  background-size: cover;
+  z-index: 1; /* Places the background behind the form */
+}
+
+/* Title and subtitle styling */
+.signup-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.signup-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: start;
+  max-width: 100%;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensure form spans full width of parent */
+  max-width: 100%; /* Prevent unexpected overflow */
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+ 
+ 
+}
+
+.form-label {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form-checkbox {
+  font-size: 14px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+}
+
+
+.signup-button {
+  width: 100%;
+  background-color: #ffc801;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #e0a800;
+}
+
+/* Footer styling */
+.signup-footer {
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  gap:5px;
+}
+
+.or {
+  
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+  
+}
+
+.or::before,
+.or::after {
+  content: "";
+  height: 1px;
+  max-width: 150px;
+  background: #d9d9d9;
+
+}
+
+.signin-text {
+  font-size: 14px;
+  color: #000000;
+  width: 300px;
+  text-align: center;
+}
+
+.signin-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}
