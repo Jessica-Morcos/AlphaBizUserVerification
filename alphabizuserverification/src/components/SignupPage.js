@@ -88,7 +88,7 @@ const SignupPage = () => {
               <option value="" disabled>Select your gender</option>
               <option value="female">Female</option>
               <option value="male">Male</option>
-              <option value="nonbinary">Nonbinary</option>
+             
             </select>
           </div>
         </div>
