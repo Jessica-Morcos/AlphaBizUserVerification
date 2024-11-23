@@ -24,7 +24,7 @@ body {
   width: 100%; /* Ensure the container spans full width */
   max-width: 400px; /* Optional: Limit max width */
   padding: 0;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   box-sizing: border-box; /* Include padding in width */
 
   z-index: 2; /* Keeps the form above the background */
@@ -71,9 +71,51 @@ body {
  
  
 }
+.form-menu{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  appearance: none; /* Removes native dropdown arrow */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 4 5%22%3E%3Cpath fill%3D%22%23000000%22 d%3D%22M2 0L0 2h4z%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 10px;
+
+}
+.form-menu:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.age-gender-container {
+  display: flex;
+  gap: 15px; 
+  width: 100%; 
+  justify-content: space-between;
+}
+
+/* Input containers (to keep labels above inputs) */
+.input-container {
+  display: flex;
+  flex-direction: column; /* Keeps the label above the input */
+  flex: 1; /* Ensures equal width for age and gender inputs */
+}
+
+/* Optional: Adjust for specific input sizes */
+.input-container select,
+.input-container input {
+  width: 100%; /* Ensures the inputs take full width of the container */
+}
 
 .form-label {
-  font-size: 14px;
+  font-size: 13px;
   color: #000000;
   font-weight: 500;
   text-align: left;
@@ -82,10 +124,10 @@ body {
 
 .form-input {
   width: 100%;
-  padding: 10px;
+  padding: 7px;
   border: 1px solid #d9d9d9;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
   box-sizing: border-box;
 }
@@ -131,7 +173,7 @@ body {
 .or {
   
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: #000000;
   
 }
@@ -146,7 +188,7 @@ body {
 }
 
 .signin-text {
-  font-size: 14px;
+  font-size: 13px;
   color: #000000;
   width: 300px;
   text-align: center;
