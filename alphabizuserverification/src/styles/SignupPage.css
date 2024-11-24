@@ -21,13 +21,13 @@ body {
 .signup-container {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Ensure the container spans full width */
-  max-width: 400px; /* Optional: Limit max width */
+  width: 100%; 
+  max-width: 400px; 
   padding: 0;
   margin-bottom: 4%;
-  box-sizing: border-box; /* Include padding in width */
+  box-sizing: border-box;
 
-  z-index: 2; /* Keeps the form above the background */
+  z-index: 2;
 }
 
 /* Background Image Styling */
@@ -36,10 +36,10 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70%; /* Adjust to match the image */
+  height: 70%; 
   background: url("../assets/backgroundImage.svg")  center bottom;
   background-size: cover;
-  z-index: 1; /* Places the background behind the form */
+  z-index: 1; 
 }
 
 /* Title and subtitle styling */
@@ -63,8 +63,8 @@ body {
 .signup-form {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Ensure form spans full width of parent */
-  max-width: 100%; /* Prevent unexpected overflow */
+  width: 100%; 
+  max-width: 100%; 
   padding: 0;
   margin: 0;
   gap: 15px;
@@ -80,7 +80,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: #ffffff;
-  appearance: none; /* Removes native dropdown arrow */
+  appearance: none; 
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 4 5%22%3E%3Cpath fill%3D%22%23000000%22 d%3D%22M2 0L0 2h4z%22/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 10px center;
@@ -104,14 +104,14 @@ body {
 /* Input containers (to keep labels above inputs) */
 .input-container {
   display: flex;
-  flex-direction: column; /* Keeps the label above the input */
-  flex: 1; /* Ensures equal width for age and gender inputs */
+  flex-direction: column;
+  flex: 1; 
 }
 
 /* Optional: Adjust for specific input sizes */
 .input-container select,
 .input-container input {
-  width: 100%; /* Ensures the inputs take full width of the container */
+  width: 100%; 
 }
 
 .form-label {

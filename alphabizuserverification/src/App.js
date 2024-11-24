@@ -17,7 +17,7 @@ const App = () => {
   return (
     <Router>
       <div className='app'>
-      < Toaster position='top-right' toastOptions={{duration: 2000}} /> 
+      < Toaster position='top-right' toastOptions={{duration: 10000}} /> 
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/clientlogin" element={<ClientLoginPage />} />
