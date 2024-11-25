@@ -2,7 +2,7 @@ import React from "react";
 import { useContext } from "react"
 import { UserContext } from "../context/UserContext"
 import Logout from './Logout'
-
+import "../styles/Dashboard.css"; 
 const Dashboard = () => {
     const userContext = useContext(UserContext);
     if (!userContext) {
