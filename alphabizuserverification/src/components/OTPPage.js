@@ -25,7 +25,7 @@ const OTPPage = () => {
     // Access UserContext
     try {
       // Post the OTP to the backend
-      const response = await axios.post('/verify-user', { otpCode: otp });
+      const response = await axios.post('/verify-user', { otpCode: otp }, { withCredentials: true });
   
       // Check the response from the backend
       if (response.data.error) {
@@ -33,7 +33,8 @@ const OTPPage = () => {
       } else {
         setOtp(''); // Clear the OTP input field
         localStorage.setItem('token', response.data.token);
-        setUser(response.data.user);
+        console.log("Response Data:", response.data);
+        setUser(response.data.user); // Ensure `user` contains correct data
         toast.success(response.data.message); // Display success message
         navigate('/dashboard')
       }
