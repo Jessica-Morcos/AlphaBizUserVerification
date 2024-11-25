@@ -32,7 +32,8 @@ const OTPPage = () => {
         toast.error(response.data.error); // Display error message
       } else {
         setOtp(''); // Clear the OTP input field
-        setUser('response');
+        localStorage.setItem('token', response.data.token);
+        setUser(response.data.user);
         toast.success(response.data.message); // Display success message
         navigate('/dashboard')
       }
