@@ -18,13 +18,8 @@
     top: 20px;
     right: 20px;
     font-size: 12px; 
-    padding: 8px 16px; 
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #ffffff; 
-    background-color: #ffc801; 
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }

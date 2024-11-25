@@ -13,9 +13,9 @@ const Dashboard = () => {
     const { user } = userContext;
     return (
         <div className="dash__container">
-           
-            <Logout />
-          
+            <div className="logout__button">
+                <Logout />
+            </div>
             <div className="article__container">
                 <div className="article">
                     <h2>welcome back,</h2>
