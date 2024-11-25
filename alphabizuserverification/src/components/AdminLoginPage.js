@@ -26,7 +26,7 @@ const AdminLoginPage = () => {
       } else {
         setData({email: '', password:''})
         toast.success(data.message)
-        navigate('/otp')
+       
       }
     } catch (error) {
       console.log(error)
