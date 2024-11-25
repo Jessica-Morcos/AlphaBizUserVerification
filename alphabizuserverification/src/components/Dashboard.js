@@ -18,7 +18,10 @@ const Dashboard = () => {
               <h1>{user?.name}</h1>
             </div>
           </div>
-          <Logout />
+          <div className="logout__button">
+             <Logout />
+          </div>
+          
         </div>
       )
 }
