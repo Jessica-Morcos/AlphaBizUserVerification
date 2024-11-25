@@ -1,65 +1,68 @@
-/* Dashboard container */
+
 .dash__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f8f8f8; /* Matches home page background */
+    background-color: #f8f8f8; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Article container */
-  .article__container {
-    display: flex;
-    flex-direction: column;
-    background: #ffffff; /* White card background */
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
-    width: 500px; /* Consistent width for centered focus */
-    padding: 30px;
-    text-align: center;
-  }
-  
-  /* Welcome message */
-  .article h2 {
-    font-size: 24px;
-    color: #000000; /* Neutral black for headings */
-    margin-bottom: 10px;
-  }
-  
-  .article h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #ffc801; /* Matches the home page yellow */
-    margin: 0;
-  }
-  
-  /* Logout button styling */
-  .logout__button {
-    margin-top: 20px;
-    padding: 12px 20px;
-    font-size: 14px;
+    position: relative;
+}
+
+
+.logout__button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 12px; 
+    padding: 8px 16px; 
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #ffffff; /* White text on yellow button */
-    background-color: #ffc801; /* Matches button color from home page */
+    color: #ffffff; 
+    background-color: #ffc801; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-  }
-  
-  .logout__button:hover {
-    background-color: #e0a800; /* Darker yellow for hover effect */
-  }
-  
-  /* Footer or additional text */
-  .footer {
+}
+
+.logout__button:hover {
+    background-color: #e0a800; 
+}
+
+
+.article__container {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 70%; 
+    max-width: 800px; 
+    padding: 40px;
+    text-align: center;
+}
+
+/* Welcome message */
+.article h2 {
+    font-size: 36px; 
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+.article h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffc801;
+    margin: 0;
+}
+
+
+.footer {
     margin-top: 20px;
     font-size: 12px;
-    color: #585858; /* Subtle gray for additional text */
-  }
-  
+    color: #585858; 
+}
